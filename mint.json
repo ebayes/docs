@@ -7,85 +7,46 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#129EAF",
+    "light": "#129EAF",
+    "dark": "#129EAF",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#129EAF",
+      "to": "#129EAF"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Home",
+      "url": "https://rlhf.app/"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Login",
+    "url": "https://rlhf.app/login"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Features",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "features/translate",
+        "features/draft",
+        "features/review",
+        "features/compare",
+        "features/chat",
+        "features/settings"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/orgs/generalpurposelab/",
+    "linkedin": "https://www.linkedin.com/company/generalpurpose/"
   }
 }
