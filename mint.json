@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "rlhf.app",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -30,7 +30,9 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart"
+        "task",
+        "dataset",
+        "example"
       ]
     },
     {
@@ -38,10 +40,8 @@
       "pages": [
         "features/translate",
         "features/draft",
-        "features/review",
         "features/compare",
-        "features/chat",
-        "features/settings"
+        "features/chat"
       ]
     }
   ],

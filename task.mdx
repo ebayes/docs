@@ -1,0 +1,40 @@
+---
+title: 'Choosing a task'
+description: 'The type of dataset you’ll need will depend on the task at hand.'
+---
+
+Below are the different use cases supported by the platform and a description of the type of dataset you’ll need. 
+
+Translating an evaluation into a different language? You’ll need to use the **Translate** feature. Evaluating how different models perform in different languages? You’ll need the **Compare** feature. 
+
+<Accordion title="Translate existing prompts" defaultOpen>
+**Example use case** - you can use the Translate feature to create a new evaluation in a different language. For example, translating [TruthfulQA](https://huggingface.co/datasets/truthful_qa)  into Welsh.
+
+**Type of dataset** - You’ll need to download the prompt dataset you’re going to translate, and ensure it is in the right format.
+
+<Tip>See the _data format_ section in [Translate](/features/translate) for a more detailed explanation</Tip>
+
+</Accordion>
+
+<br />
+
+<Accordion title="Draft new prompts" defaultOpen>
+**Example use case** - you can create a new instruction dataset to fine-tune a language model.
+
+**Type of dataset** - you can either start from scratch, meaning you don’t need to bring any data at all, or you could import a dataset, like Alpaca, and have annotators correct/amend model outputs.
+
+<Tip>See the _data format_ section in [Draft](/features/draft) for a more detailed explanation</Tip>
+
+</Accordion>
+
+<br />
+
+<Accordion title="Create comparison datasets " defaultOpen>
+**Example use case** - you can compare different model outputs to train a reward model or compare different models against each other (such as comparing Gemini and GPT-4 in Welsh).
+
+**Type of dataset** - you’ll need multiple prompt-completion pairs to compare.
+
+<Tip>See the _data format_ section in [Compare](/features/compare) for a more detailed explanation</Tip>
+
+</Accordion>
+
